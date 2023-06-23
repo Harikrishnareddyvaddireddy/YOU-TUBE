@@ -1,0 +1,72 @@
+.youtube-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .youtube-navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .youtube-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .youtube-logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .youtube-navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .youtube-search-input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .youtube-search-button {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .VideosList {
+    flex: 30%;
+    margin-right: 20px;
+  }
+  
+  .VideoPlayer {
+    padding-left: 20px;
+    flex:65%;
+  }
+  .content {
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+  }
+  
+  .list-1 {
+    flex:50%;
+  }
+  
+  .list-2 {
+    flex:40% ;
+  }
