@@ -1,10 +1,12 @@
-zimport React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Search.css'
 import VideosList from './VideosList';
 import VideoPlayer from './VideoPlayer';
 import SearchBar from './SearchBar';
-const API_KEY = "AIzaSyAUVcSkc30h_gTwWbqqWh8skGzzyJJmu84";
+
+const API_KEY = "YOUR API KEY";  // YOUR API KEY ------------------------------------------------------------------
+
 function App() {
   const [videosList, setVideosList] = useState({
     videos: [],
