@@ -5,7 +5,7 @@ import VideosList from './VideosList';
 import VideoPlayer from './VideoPlayer';
 import SearchBar from './SearchBar';
 
-const API_KEY = "YOUR API KEY";  // YOUR API KEY ------------------------------------------------------------------
+const API_KEY = "";  // YOUR API KEY ------------------------------------------------------------------
 
 function App() {
   const [videosList, setVideosList] = useState({
